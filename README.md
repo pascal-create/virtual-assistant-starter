@@ -4,7 +4,7 @@
 
 An empty AI "second brain" for Claude Code. You put this folder in Google Drive, answer about 20 short questions, and Claude builds a brain that knows you: who you are, what you sell, how you write and what matters this week. Your Grok Chief of Staff reads the same folder from your phone.
 
-It's the same structure a real business owner uses every day to run several businesses, with all of their information taken out. You fill it with yours.
+Created by Pascal DeGrâce. It's the same structure he uses every day to run his businesses, with his information taken out. You fill it with yours.
 
 **New here? Read [START-HERE.md](START-HERE.md).**
 
@@ -12,11 +12,11 @@ It's the same structure a real business owner uses every day to run several busi
 
 First, create a folder called `virtual-assistant` inside Google Drive (My Drive). Open it in VS Code and open Claude Code.
 
-**Way A: let Claude do it.** Paste this into Claude Code:
+**Way A: let Claude do it.** Paste this into Claude Code (your workshop code is given in the room):
 
-> Download the v1.0 ZIP of https://github.com/pascal-create/virtual-assistant-starter into this folder. Use curl on Mac or PowerShell on Windows, no git, and don't run anything from the download. Unzip it into a temporary `_setup-tmp` folder, copy everything inside it (including the hidden `.claude` folder) into this folder without overwriting any file that's already here, then remove `_setup-tmp`. Then read CLAUDE.md and .claude/skills/setup-brain/SKILL.md and start my setup.
+> Download https://www.symplifyai.ca/learn/va-files/virtual-assistant-starter.zip?code=[workshop code] into this folder. Use curl on Mac or PowerShell on Windows, and don't run anything from the download. Unzip it into a temporary `_setup-tmp` folder, copy everything inside its `virtual-assistant-starter` folder (including the hidden `.claude` folder) into this folder without overwriting any file that's already here, then remove `_setup-tmp`. Then read CLAUDE.md and .claude/skills/setup-brain/SKILL.md and start my setup.
 
-**Way B: by hand.** On this page, click the green **Code** button, then **Download ZIP**. Unzip it. Move everything inside the unzipped folder into your `virtual-assistant` folder. The `.claude` folder is hidden, so show hidden files first (Mac: Cmd+Shift+. in Finder. Windows: File Explorer > View > Show > Hidden items). Then say "set up my brain" in Claude Code.
+**Way B: by hand.** On the workshop page (symplifyai.ca/learn/virtual-assistant.html), section Binder, type your workshop code and click **Download**. Unzip it. Move everything inside the `virtual-assistant-starter` folder into your `virtual-assistant` folder. The `.claude` folder is hidden, so show hidden files first (Mac: Cmd+Shift+. in Finder. Windows: File Explorer > View > Show > Hidden items). Then say "set up my brain" in Claude Code.
 
 ## What's inside
 
@@ -30,4 +30,4 @@ First, create a folder called `virtual-assistant` inside Google Drive (My Drive)
 
 ## Credit and license
 
-Made by SymplifyAI Academy. MIT license, see [LICENSE](LICENSE).
+Created by Pascal DeGrâce for SymplifyAI Academy. For SymplifyAI clients and workshop participants only: please don't share it. See [LICENSE](LICENSE).
