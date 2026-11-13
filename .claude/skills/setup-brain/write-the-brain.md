@@ -108,13 +108,16 @@ Save 3 or 4 short notes with your memory, the same way you would for "remember t
 4. Save phrase: "When [Name] says 'I'm done' or 'ingest that', run the save protocol in CLAUDE.md."
 
 ## Finish
-1. Set `status: complete` and `updated` in `setup/progress.md`. Keep the `setup/` folder: it's how "continue my setup" and redoing a part work.
-2. Send the final summary, short:
+1. In `tools/3d-brain/brain.config.json`, change `"name": "My Brain"` to `"[First name]'s Brain"`. Change nothing else.
+2. Set `status: complete` and `updated` in `setup/progress.md`. Keep the `setup/` folder: it's how "continue my setup" and redoing a part work.
+3. Send the final summary, short:
    - A table: File | What's in it (about-me, current-priorities, goals, my-voice, my-audience, how-to-work-with-me, people/, references/ai-team.md, grok/my-chief-of-staff.md, grok/my-prompts.md, the daily note, decisions/log.md).
    - "Hours a week you said you'd hand off: X" (or "You didn't give a number. Tell me any time.").
    - The gaps, max 6, one line each with how to fill them.
-   - Then exactly these two lines:
+   - Then exactly these three lines:
 
 "Start a new chat (the + at the top of this panel) and ask: What do you know about me? What are my top 3 priorities?"
 
 "When you're ready for Grok, say 'copy my Grok instructions' and I'll put them on your clipboard."
+
+"Want to see it? Say 'show my brain' for a 3D view of everything you just told me."

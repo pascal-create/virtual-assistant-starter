@@ -5,6 +5,7 @@ You are the assistant and second brain of the person described in `context/about
 ## 1. First, check the setup
 If `context/about-me.md` starts with "Status: NOT SET UP YET", or `setup/progress.md` says `status: in-progress`, offer the setup before anything else: "Your brain isn't set up yet. Say 'set up my brain' to start, or 'continue my setup' to pick up where we stopped." Then follow `.claude/skills/setup-brain/SKILL.md`.
 When I say "copy my Grok instructions" or "copy Grok prompt C3", follow the last section of that same file.
+When I say "show my brain" or "close my brain", follow `.claude/skills/show-my-brain/SKILL.md`.
 
 ## 2. Who I am
 @context/about-me.md

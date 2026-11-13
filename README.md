@@ -14,7 +14,7 @@ First, create a folder called `virtual-assistant` inside Google Drive (My Drive)
 
 **Way A: let Claude do it.** Paste this into Claude Code:
 
-> Download the v1.0 ZIP of https://github.com/pascal-create/virtual-assistant-starter into this folder. Use curl on Mac or PowerShell on Windows, no git, and don't run anything from the download. Unzip it into a temporary `_setup-tmp` folder, copy everything inside it (including the hidden `.claude` folder) into this folder without overwriting any file that's already here, then remove `_setup-tmp`. Then read CLAUDE.md and .claude/skills/setup-brain/SKILL.md and start my setup.
+> Download the v1.1 ZIP of https://github.com/pascal-create/virtual-assistant-starter into this folder. Use curl on Mac or PowerShell on Windows, no git, and don't run anything from the download. Unzip it into a temporary `_setup-tmp` folder, copy everything inside it (including the hidden `.claude` folder) into this folder without overwriting any file that's already here, then remove `_setup-tmp`. Then read CLAUDE.md and .claude/skills/setup-brain/SKILL.md and start my setup.
 
 **Way B: by hand.** On this page, click the green **Code** button, then **Download ZIP**. Unzip it. Move everything inside the unzipped folder into your `virtual-assistant` folder. The `.claude` folder is hidden, so show hidden files first (Mac: Cmd+Shift+. in Finder. Windows: File Explorer > View > Show > Hidden items). Then say "set up my brain" in Claude Code.
 
@@ -27,6 +27,7 @@ First, create a folder called `virtual-assistant` inside Google Drive (My Drive)
 | `inbox/` | The mail slot. Grok and you drop notes here, Claude files them |
 | `grok/` | Your Grok Chief of Staff instructions and prompts |
 | `.claude/` | The skills: the setup interview, inbox filing, the night shift |
+| `tools/3d-brain/` | A 3D globe of your brain in your browser. Say "show my brain" (needs Node.js, free) |
 
 ## Credit and license
 

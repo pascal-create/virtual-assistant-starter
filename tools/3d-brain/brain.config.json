@@ -1,0 +1,14 @@
+{
+  "name": "My Brain",
+  "root": "../..",
+  "port": 4640,
+  "maxNodes": 3000,
+  "sources": [
+    {"id":"me","label":"Me and my business","short":"Me","paths":["index.md","CLAUDE.md","context","decisions"],"color":"#FBBF24","staleDays":60,"blurb":"Who you are, your business, goals, priorities and decisions."},
+    {"id":"people","label":"People and companies","short":"People","paths":["people","companies"],"color":"#F472B6","staleDays":null,"blurb":"Clients, prospects, partners and your team."},
+    {"id":"meetings","label":"Meetings and days","short":"Meetings","paths":["meetings","daily"],"color":"#FB923C","staleDays":null,"blurb":"What happened: meetings and daily notes."},
+    {"id":"projects","label":"Projects","short":"Projects","paths":["projects"],"color":"#34D399","staleDays":90,"blurb":"What you're working on."},
+    {"id":"playbooks","label":"Playbooks and AI team","short":"Playbooks","paths":["references","grok",".claude/skills"],"color":"#38BDF8","staleDays":null,"blurb":"How the work gets done: references, your Grok team and Claude's skills."},
+    {"id":"memory","label":"Claude memory","short":"Memory","paths":["@claude-memory"],"color":"#A78BFA","staleDays":null,"blurb":"What Claude has learned about you across chats."}
+  ]
+}
