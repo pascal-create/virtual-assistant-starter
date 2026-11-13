@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Personal, never shared
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Made by the setup interview (your answers stay in your folder)
+_setup-tmp/
+setup/
